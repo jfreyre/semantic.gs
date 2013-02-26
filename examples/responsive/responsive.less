@@ -1,6 +1,6 @@
-@import '../../stylesheets/reset.css';
-@import '../../stylesheets/demo.css';
-@import '../../stylesheets/less/grid.less';
+@import '../stylesheets/reset.css';
+@import '../stylesheets/demo.css';
+@import '../../grid/grid.less';
 
 
 //////////
@@ -21,7 +21,7 @@
 ////////////
 
 // header
-header#top {
+header#top, #maincolumn, #sidebar {
 	margin-bottom: 1em;
 }
 
@@ -33,10 +33,19 @@ header#top {
 	.column(3);
 }
 
-@media screen and (max-width: 720px) {
-	#maincolumn,
-	#sidebar {
-		.column(12);
-		margin-bottom: 1em;
-	}
+
+/* Tablet */
+@media only screen and (max-width : 1023px) {
+    #maincolumn,
+    #sidebar {
+        .column(6);
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width : 767px) {
+    #maincolumn,
+    #sidebar {
+        .column(12);
+    }
 }

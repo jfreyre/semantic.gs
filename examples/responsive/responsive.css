@@ -1,0 +1,56 @@
+@import '../stylesheets/reset.css';
+
+@import '../stylesheets/demo.css';
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+header#top,
+#maincolumn,
+#sidebar {
+  margin-bottom: 1em;
+}
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 72.91666666666666%;
+  margin-left: 1.0416666666666665%;
+  margin-right: 1.0416666666666665%;
+}
+#sidebar {
+  display: inline;
+  float: left;
+  width: 22.916666666666664%;
+  margin-left: 1.0416666666666665%;
+  margin-right: 1.0416666666666665%;
+}
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  #maincolumn,
+  #sidebar {
+    display: inline;
+    float: left;
+    width: 47.91666666666667%;
+    margin-left: 1.0416666666666665%;
+    margin-right: 1.0416666666666665%;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  #maincolumn,
+  #sidebar {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin-left: 1.0416666666666665%;
+    margin-right: 1.0416666666666665%;
+  }
+}
