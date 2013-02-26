@@ -1,0 +1,50 @@
+@import '../stylesheets/reset.css';
+@import '../stylesheets/demo.css';
+@import '../../grid/grid.less';
+
+
+//////////
+// GRID //
+//////////
+
+// Specify the number of columns and set column and gutter widths
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+// Remove the definition below for a pixel-based layout
+@total-width: 100%;
+
+
+////////////
+// LAYOUT //
+////////////
+
+// header
+header#top {
+	margin-bottom: 1em;
+}
+// The mini wrapper should be responsible for
+// padding, background and border properties
+// and the parent shouldn't define any of these properties
+.mini-wrapper {
+    padding: 5px 20px 20px 20px;
+    background: #ccc;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+}
+
+// main column & sidebar
+#maincolumn {
+
+    padding: 0;
+    background: none;
+	.column(9);
+    h2 {
+        margin: 20px 0;
+    }
+}
+#sidebar {
+	.column(3);
+}
+
