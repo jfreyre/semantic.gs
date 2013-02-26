@@ -21,6 +21,8 @@ header#top {
   margin-bottom: 1em;
 }
 #maincolumn {
+  padding: 0;
+  background: none;
   display: inline;
   float: left;
   width: 72.91666666666666%;

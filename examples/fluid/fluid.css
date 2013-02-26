@@ -13,3 +13,20 @@ body:after {
 body:after {
   clear: both;
 }
+header#top {
+  margin-bottom: 1em;
+}
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 72.91666666666666%;
+  margin-left: 1.0416666666666665%;
+  margin-right: 1.0416666666666665%;
+}
+#sidebar {
+  display: inline;
+  float: left;
+  width: 22.916666666666664%;
+  margin-left: 1.0416666666666665%;
+  margin-right: 1.0416666666666665%;
+}

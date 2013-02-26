@@ -11,12 +11,14 @@ h1 a {
 	color: white;
 	text-decoration: none;
 }
+#sidebar, #maincolumn, #push, #pull {
+	padding: 5.25em 0;
+	background-color: #ccc;
+	color: #666;
+}
 h2 {
 	font-family: Georgia;
 	font-size: 1.5em;
-	padding: 5.25em 0;
-	color: #666;
-	background-color: #ccc;
 	text-align: center;
 }
 ul#boxes li {
