@@ -16,6 +16,12 @@
 @total-width: 100%;
 
 
+@p1: 100%;
+@p2: 10px;
+.test {
+    width: @p1 - @p2;
+}
+
 ////////////
 // LAYOUT //
 ////////////
@@ -30,8 +36,6 @@ header#top {
 .mini-wrapper {
     padding: 5px 20px 20px 20px;
     background: #ccc;
-    border: 1px solid #bbb;
-    border-radius: 20px;
 }
 
 // main column & sidebar

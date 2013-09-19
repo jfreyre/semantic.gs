@@ -13,14 +13,15 @@ body:after {
 body:after {
   clear: both;
 }
+.test {
+  width: 90%;
+}
 header#top {
   margin-bottom: 1em;
 }
 .mini-wrapper {
   padding: 5px 20px 20px 20px;
   background: #ccc;
-  border: 1px solid #bbb;
-  border-radius: 20px;
 }
 #maincolumn {
   padding: 0;
