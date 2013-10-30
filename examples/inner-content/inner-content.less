@@ -16,11 +16,6 @@
 @total-width: 100%;
 
 
-@p1: 100%;
-@p2: 10px;
-.test {
-    width: @p1 - @p2;
-}
 
 ////////////
 // LAYOUT //
@@ -30,20 +25,14 @@
 header#top {
 	margin-bottom: 1em;
 }
-// The mini wrapper should be responsible for
-// padding, background and border properties
-// and the parent shouldn't define any of these properties
-.mini-wrapper {
-    padding: 5px 20px 20px 20px;
-    background: #ccc;
-}
+
 
 // main column & sidebar
 #maincolumn {
-
-    padding: 0;
-    background: none;
+    padding: 5px 20px 20px 20px;
+    background: #ccc;
 	.column(9);
+
     h2 {
         margin: 20px 0;
     }
